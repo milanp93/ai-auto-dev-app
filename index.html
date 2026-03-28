@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Delivery Orchestrator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0a0e1a; color: #e0e6ff; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 4rem; border-bottom: 1px solid #1e2a4a; }
+    .logo { font-size: 1.4rem; font-weight: 700; color: #6c8fff; letter-spacing: 1px; }
+    nav a { color: #a0b0d0; text-decoration: none; margin-left: 2rem; font-size: 0.95rem; }
+    nav a:hover { color: #6c8fff; }
+    .hero { text-align: center; padding: 6rem 2rem 4rem; }
+    .badge { display: inline-block; background: #1a2540; color: #6c8fff; border: 1px solid #6c8fff44; border-radius: 20px; padding: 0.3rem 1rem; font-size: 0.8rem; margin-bottom: 1.5rem; }
+    h1 { font-size: 3.2rem; font-weight: 800; line-height: 1.15; margin-bottom: 1.2rem; background: linear-gradient(135deg, #ffffff, #6c8fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { font-size: 1.15rem; color: #8090b0; max-width: 560px; margin: 0 auto 2.5rem; line-height: 1.7; }
+    .cta-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn-primary { background: #6c8fff; color: #0a0e1a; padding: 0.8rem 2rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1rem; transition: background 0.2s; }
+    .btn-primary:hover { background: #8faeff; }
+    .btn-secondary { border: 1px solid #6c8fff55; color: #a0b0d0; padding: 0.8rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1rem; transition: border-color 0.2s; }
+    .btn-secondary:hover { border-color: #6c8fff; color: #e0e6ff; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: 5rem auto; padding: 0 2rem; }
+    .card { background: #111827; border: 1px solid #1e2a4a; border-radius: 12px; padding: 1.8rem; transition: border-color 0.2s; }
+    .card:hover { border-color: #6c8fff55; }
+    .icon { font-size: 1.8rem; margin-bottom: 0.8rem; }
+    .card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; color: #c8d8ff; }
+    .card p { font-size: 0.88rem; color: #607090; line-height: 1.6; }
+    footer { text-align: center; padding: 2rem; color: #3a4a6a; font-size: 0.85rem; border-top: 1px solid #1e2a4a; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">⚡ AI Orchestrator</div>
+    <div><a href="#features">Features</a><a href="#">Docs</a><a href="https://github.com/milanp93/ai-auto-dev-app" target="_blank">GitHub</a></div>
+  </nav>
+  <section class="hero">
+    <div class="badge">🚀 KAN-1 · Now Live</div>
+    <h1>AI Delivery<br/>Orchestrator</h1>
+    <p class="subtitle">Automate your entire software delivery pipeline with AI-powered orchestration — from issue to deployment, hands-free.</p>
+    <div class="cta-group">
+      <a href="https://github.com/milanp93/ai-auto-dev-app" class="btn-primary">Get Started</a>
+      <a href="#features" class="btn-secondary">Learn More</a>
+    </div>
+  </section>
+  <section class="features" id="features">
+    <div class="card"><div class="icon">🤖</div><h3>AI-Powered Automation</h3><p>Leverage LLMs to automatically implement tasks, write code, and open pull requests without manual effort.</p></div>
+    <div class="card"><div class="icon">🔀</div><h3>Smart Orchestration</h3><p>Coordinate complex multi-step delivery workflows across services, branches, and environments seamlessly.</p></div>
+    <div class="card"><div class="icon">📦</div><h3>End-to-End Delivery</h3><p>From Jira ticket to merged PR — every step automated, tracked, and auditable in your existing toolchain.</p></div>
+    <div class="card"><div class="icon">🔒</div><h3>Secure & Auditable</h3><p>All AI actions are logged and reversible. Full transparency into what changed and why, every time.</p></div>
+  </section>
+  <footer>© 2024 AI Delivery Orchestrator · <a href="https://github.com/milanp93/ai-auto-dev-app" style="color:#6c8fff">milanp93/ai-auto-dev-app</a></footer>
+</body>
+</html>
