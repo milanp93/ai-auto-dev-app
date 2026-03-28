@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Delivery Orchestrator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0a0e1a; color: #e0e6f0; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 3rem; background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(255,255,255,0.08); }
+    nav .logo { font-size: 1.3rem; font-weight: 700; color: #7eb8ff; letter-spacing: 1px; }
+    nav a { color: #a0b4cc; text-decoration: none; margin-left: 2rem; font-size: 0.95rem; transition: color .2s; }
+    nav a:hover { color: #7eb8ff; }
+    .hero { text-align: center; padding: 7rem 2rem 4rem; }
+    .badge { display: inline-block; background: rgba(126,184,255,0.12); color: #7eb8ff; border: 1px solid rgba(126,184,255,0.3); border-radius: 20px; padding: .3rem 1rem; font-size: .8rem; margin-bottom: 1.5rem; letter-spacing: 1px; text-transform: uppercase; }
+    .hero h1 { font-size: clamp(2rem, 5vw, 3.6rem); font-weight: 800; line-height: 1.15; max-width: 780px; margin: 0 auto 1.2rem; background: linear-gradient(135deg, #ffffff 40%, #7eb8ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p { font-size: 1.15rem; color: #8a9ab5; max-width: 560px; margin: 0 auto 2.5rem; line-height: 1.7; }
+    .cta-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn-primary { background: linear-gradient(135deg, #4a90e2, #7eb8ff); color: #fff; border: none; padding: .85rem 2.2rem; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: opacity .2s, transform .2s; text-decoration: none; }
+    .btn-primary:hover { opacity: .88; transform: translateY(-2px); }
+    .btn-secondary { background: transparent; color: #7eb8ff; border: 1px solid rgba(126,184,255,0.4); padding: .85rem 2.2rem; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background .2s; text-decoration: none; }
+    .btn-secondary:hover { background: rgba(126,184,255,0.08); }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; padding: 4rem 3rem; max-width: 1100px; margin: 0 auto; }
+    .card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 2rem; transition: border-color .2s; }
+    .card:hover { border-color: rgba(126,184,255,0.35); }
+    .card .icon { font-size: 2rem; margin-bottom: 1rem; }
+    .card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: .5rem; color: #d0dcee; }
+    .card p { font-size: .9rem; color: #6a7f99; line-height: 1.6; }
+    footer { text-align: center; padding: 2rem; color: #3a4a5e; font-size: .85rem; border-top: 1px solid rgba(255,255,255,0.06); }
+  </style>
+</head>
+<body>
+  <nav>
+    <span class="logo">&#9889; AI-DO</span>
+    <div>
+      <a href="#features">Features</a>
+      <a href="#">Docs</a>
+      <a href="https://github.com/milanp93/ai-auto-dev-app" target="_blank">GitHub</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="badge">Powered by AI</div>
+    <h1>AI Delivery Orchestrator</h1>
+    <p>Automate your software delivery pipeline end-to-end. From issue to deployment — orchestrated intelligently by AI.</p>
+    <div class="cta-group">
+      <a href="https://github.com/milanp93/ai-auto-dev-app" class="btn-primary">Get Started</a>
+      <a href="#features" class="btn-secondary">Learn More</a>
+    </div>
+  </section>
+  <section class="features" id="features">
+    <div class="card"><div class="icon">&#129302;</div><h3>AI Code Generation</h3><p>Automatically generate pull requests from issue descriptions using large language models.</p></div>
+    <div class="card"><div class="icon">&#128640;</div><h3>Pipeline Orchestration</h3><p>Coordinate CI/CD stages intelligently, resolving conflicts and optimizing delivery flow.</p></div>
+    <div class="card"><div class="icon">&#128269;</div><h3>Smart Code Review</h3><p>AI-assisted reviews catch bugs and enforce standards before merging to production.</p></div>
+    <div class="card"><div class="icon">&#128200;</div><h3>Delivery Insights</h3><p>Real-time metrics and AI-driven recommendations to continuously improve your team's velocity.</p></div>
+  </section>
+  <footer>&copy; 2024 AI Delivery Orchestrator &mdash; milanp93/ai-auto-dev-app</footer>
+</body>
+</html>
