@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Delivery Orchestrator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0a0e1a; color: #e2e8f0; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 4rem; border-bottom: 1px solid #1e2a3a; }
+    .logo { font-size: 1.3rem; font-weight: 700; color: #60a5fa; letter-spacing: 1px; }
+    nav a { color: #94a3b8; text-decoration: none; margin-left: 2rem; font-size: 0.95rem; transition: color 0.2s; }
+    nav a:hover { color: #60a5fa; }
+    .hero { text-align: center; padding: 6rem 2rem 4rem; }
+    .badge { display: inline-block; background: #1e3a5f; color: #60a5fa; padding: 0.3rem 1rem; border-radius: 20px; font-size: 0.8rem; margin-bottom: 1.5rem; letter-spacing: 1px; }
+    h1 { font-size: 3.2rem; font-weight: 800; line-height: 1.15; max-width: 720px; margin: 0 auto 1.2rem; background: linear-gradient(135deg, #e2e8f0, #60a5fa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { font-size: 1.15rem; color: #94a3b8; max-width: 560px; margin: 0 auto 2.5rem; line-height: 1.7; }
+    .cta-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn-primary { background: #2563eb; color: #fff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.2s; }
+    .btn-primary:hover { background: #1d4ed8; }
+    .btn-secondary { background: transparent; color: #60a5fa; padding: 0.85rem 2rem; border-radius: 8px; border: 1px solid #2563eb; text-decoration: none; font-weight: 600; transition: all 0.2s; }
+    .btn-secondary:hover { background: #1e3a5f; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; max-width: 1100px; margin: 5rem auto; padding: 0 2rem; }
+    .card { background: #111827; border: 1px solid #1e2a3a; border-radius: 12px; padding: 1.8rem; transition: border-color 0.2s; }
+    .card:hover { border-color: #2563eb; }
+    .icon { font-size: 2rem; margin-bottom: 1rem; }
+    .card h3 { font-size: 1.05rem; margin-bottom: 0.5rem; color: #e2e8f0; }
+    .card p { font-size: 0.88rem; color: #64748b; line-height: 1.6; }
+    footer { text-align: center; padding: 2rem; color: #475569; font-size: 0.85rem; border-top: 1px solid #1e2a3a; }
+  </style>
+</head>
+<body>
+  <nav>
+    <span class="logo">⚡ AI-DO</span>
+    <div>
+      <a href="#features">Features</a>
+      <a href="#">Docs</a>
+      <a href="https://github.com/milanp93/ai-auto-dev-app" target="_blank">GitHub</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="badge">KAN-1 · Now Live</div>
+    <h1>AI Delivery Orchestrator</h1>
+    <p class="subtitle">Automate your entire software delivery pipeline with intelligent AI agents — from issue to deployment, hands-free.</p>
+    <div class="cta-group">
+      <a href="https://github.com/milanp93/ai-auto-dev-app" class="btn-primary">Get Started</a>
+      <a href="#features" class="btn-secondary">See Features</a>
+    </div>
+  </section>
+  <section class="features" id="features">
+    <div class="card"><div class="icon">🤖</div><h3>AI-Powered Agents</h3><p>Autonomous agents analyze tickets, write code, and open pull requests without human intervention.</p></div>
+    <div class="card"><div class="icon">🔄</div><h3>Full Pipeline Automation</h3><p>From Kanban issue creation to CI/CD deployment — every step is orchestrated seamlessly.</p></div>
+    <div class="card"><div class="icon">📦</div><h3>Smart Delivery</h3><p>Intelligent scheduling and prioritization ensure the right code ships at the right time.</p></div>
+    <div class="card"><div class="icon">🔍</div><h3>Observability</h3><p>Real-time visibility into every agent decision, code change, and deployment event.</p></div>
+  </section>
+  <footer>© 2024 AI Delivery Orchestrator · <a href="https://github.com/milanp93/ai-auto-dev-app" style="color:#60a5fa">milanp93/ai-auto-dev-app</a></footer>
+</body>
+</html>
